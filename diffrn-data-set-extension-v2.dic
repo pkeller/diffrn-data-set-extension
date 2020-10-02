@@ -826,6 +826,21 @@ save__pdbx_diffrn_merge_stat.number_obs
     _item_type.code               int
      save_
 
+save__pdbx_diffrn_merge_stat.gphl_number_measured_all
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_number_measured_all'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum           .   0
+                                  0   0
+    _item_type.code               int
+
+    save_
+
 save__pdbx_diffrn_merge_stat.observed_criterion_I_max
     _item_description.description
 ;              The criterion used to classify a reflection as 'observed'
@@ -879,6 +894,119 @@ save__pdbx_diffrn_merge_stat.percent_possible_obs
      save_
 
 
+save__pdbx_diffrn_merge_stat.gphl_percent_possible_spherical_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_percent_possible_spherical_obs'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat.gphl_percent_possible_ellipsoidal_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_percent_possible_ellipsoidal_obs'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+
+save__pdbx_diffrn_merge_stat.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_percent_possible_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat.gphl_redundancy
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_redundancy'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_redundancy_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
 save__pdbx_diffrn_merge_stat.mean_I_over_sigI_all
     _item_description.description
 ;              The mean of the ratio of the intensities of all reflections
@@ -899,6 +1027,20 @@ save__pdbx_diffrn_merge_stat.Rmerge_all
 
 ;
     _item.name                  '_pdbx_diffrn_merge_stat.Rmerge_all'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum            .    0.0
+                                  0.0   0.0
+    _item_type.code               float
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_Rmeas_all
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_Rmeas_all'
     _item.category_id             pdbx_diffrn_merge_stat
     _item.mandatory_code          no
     loop_
@@ -949,6 +1091,236 @@ save__pdbx_diffrn_merge_stat.CC_half_all
      1.0   1.0
      save_
 
+save__pdbx_diffrn_merge_stat.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_CC_half_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__pdbx_diffrn_merge_stat.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[1]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[2]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_1_ortho[3]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[1]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[2]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_2_ortho[3]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[1]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[1]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[2]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[2]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[3]
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_axis_3_ortho[3]'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     -1.0   -1.0
+     -1.0    1.0
+      1.0    1.0
+
+    save_
+
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_1
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_1'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_2
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_2'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
+
+save__pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_3
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat.gphl_aniso_diffrn_limit_3'
+    _item.category_id             pdbx_diffrn_merge_stat
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0  .
+
+    save_
 
 ### -----------------------------------------------------------------------------------
 ##
@@ -1053,6 +1425,21 @@ save__pdbx_diffrn_merge_stat_shell.number_obs
     _item_type.code               int
      save_
 
+save__pdbx_diffrn_merge_stat_shell.gphl_number_measured_all
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_number_measured_all'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum           .   0
+                                  0   0
+    _item_type.code               int
+
+    save_
+
 save__pdbx_diffrn_merge_stat_shell.observed_criterion_I_max
     _item_description.description
 ;              The criterion used to classify a reflection as 'observed'
@@ -1105,6 +1492,117 @@ save__pdbx_diffrn_merge_stat_shell.percent_possible_obs
     _item_type.code               float
      save_
 
+save__pdbx_diffrn_merge_stat_shell.gphl_percent_possible_spherical_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_percent_possible_spherical_obs'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_percent_possible_ellipsoidal_obs
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_percent_possible_ellipsoidal_obs'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_percent_possible_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_percent_possible_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_percent_possible_spherical_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_percent_possible_spherical_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_percent_possible_ellipsoidal_obs_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_percent_possible_ellipsoidal_obs_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum         100.0 100.0
+                                100.0   0.0
+                                  0.0   0.0
+
+    _item_type.code               float
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_redundancy
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_redundancy'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_redundancy_anomalous
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_redundancy_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum             .   1.0
+                                  1.0   1.0
+
+    _item_type.code               float
+
+    save_
 
 save__pdbx_diffrn_merge_stat_shell.mean_I_over_sigI_all
     _item_description.description
@@ -1134,6 +1632,22 @@ save__pdbx_diffrn_merge_stat_shell.Rmerge_all
                                   0.0   0.0
     _item_type.code               float
     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_Rmeas_all
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_Rmeas_all'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    loop_
+    _item_range.maximum
+    _item_range.minimum            .    0.0
+                                  0.0   0.0
+    _item_type.code               float
+    save_
+
+
 
 save__pdbx_diffrn_merge_stat_shell.Rpim_I_all
     _item_description.description
@@ -1175,6 +1689,39 @@ save__pdbx_diffrn_merge_stat_shell.CC_half_all
     -1.0   1.0
      1.0   1.0
      save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_CC_half_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_CC_half_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+    -1.0  -1.0
+    -1.0   1.0
+     1.0   1.0
+     save_
+
+save__pdbx_diffrn_merge_stat_shell.gphl_absDiff_over_sigma_anomalous
+    _item_description.description
+;             GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merge_stat_shell.gphl_absDiff_over_sigma_anomalous'
+    _item.category_id             pdbx_diffrn_merge_stat_shell
+    _item.mandatory_code          no
+    _item_type.code               float
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+
+    save_
+
 
 
 ### -----------------------------------------------------------------------------------
@@ -1263,6 +1810,97 @@ save__pdbx_diffrn_merged_refln.F_meas_sigma_au
     _item_type.code               float
     _item_units.code              arbitrary
      save_
+
+save__pdbx_diffrn_merged_refln.gphl_F_plus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_F_plus'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_F_plus_sigma
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_F_plus_sigma'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_F_minus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_F_minus'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_F_minus_sigma
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_F_minus_sigma'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_anom_difference
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_anom_difference'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    save_
+
+save__pdbx_diffrn_merged_refln.gphl_anom_difference_sigma
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_anom_difference_sigma'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+    save_
 
 save__pdbx_diffrn_merged_refln.fom
     _item_description.description
@@ -1359,6 +1997,61 @@ save__pdbx_diffrn_merged_refln.intensity_sigma
     _item.category_id             pdbx_diffrn_merged_refln
     _item.mandatory_code          no
     _item_type.code               float
+     save_
+
+
+save__pdbx_diffrn_merged_refln.gphl_I_plus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_I_plus'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_I_plus_sigma
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_I_plus_sigma'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_I_minus
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_I_minus'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+     save_
+
+save__pdbx_diffrn_merged_refln.gphl_I_minus_sigma
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_merged_refln.gphl_I_minus_sigma'
+    _item.category_id             pdbx_diffrn_merged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+    _item_units.code              arbitrary
+    loop_
+    _item_range.minimum
+    _item_range.maximum
+     0.0   0.0
+     0.0   .
      save_
 
 save__pdbx_diffrn_merged_refln.status
@@ -2345,6 +3038,55 @@ save__pdbx_diffrn_unmerged_refln.scale_value
     _item_range.minimum
                                   .   0.0
      save_
+
+save__pdbx_diffrn_unmerged_refln.gphl_batch
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_unmerged_refln.gphl_batch'
+    _item.category_id             pdbx_diffrn_unmerged_refln
+    _item.mandatory_code          no
+    _item_type.code               int
+    loop_
+    _item_range.maximum
+    _item_range.minimum
+                                  .   0
+    save_
+
+save__pdbx_diffrn_unmerged_refln.gphl_detector_x
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_unmerged_refln.gphl_detector_x'
+    _item.category_id             pdbx_diffrn_unmerged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+save__pdbx_diffrn_unmerged_refln.gphl_detector_y
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_unmerged_refln.gphl_detector_y'
+    _item.category_id             pdbx_diffrn_unmerged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+save__pdbx_diffrn_unmerged_refln.gphl_rotation_angle
+    _item_description.description
+;              GPhL TBD
+;
+    _item.name                  '_pdbx_diffrn_unmerged_refln.gphl_rotation_angle'
+    _item.category_id             pdbx_diffrn_unmerged_refln
+    _item.mandatory_code          no
+    _item_type.code               float
+
+     save_
+
+
 ##
 ##
 ##   The following categories would be added and maintained by the PDB ...
