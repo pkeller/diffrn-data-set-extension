@@ -1986,8 +1986,8 @@ using the 2-letter symbols.
 save_pdbx_diffrn_scan
     _category.description
 ;              Data items in the pdbx_diffrn_scan category record details of
-               individual scans. Each scan consists of a contiguous series of
-               images related by an axis of rotation.
+               individual scans. Each scan consists of a contiguously-collected
+               series of images related by an axis of rotation.
 ;
     _category.id                  pdbx_diffrn_scan
     _category.mandatory_code      no
